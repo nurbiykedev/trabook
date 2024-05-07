@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+  width: 80%;
+}
+body{
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+a:hover{
+  color: #FA7436;
+  border-bottom: 2px solid #FA7436;
+}
+button{
+  border: none;
+}
+#header{
+  padding: 20px 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-btns button{
+width: 130px;
+height: 35px;
+border-radius: 5px;
+color:#FA7436;
+background: fixed;
+font-weight: 700;
+}
+.header-btns button:hover{
+background: #FA7436;
+color: aliceblue;
+box-shadow: 4px 4px 23px -1px rgba(0,0,0,0.53);
+}
+
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text h1{
+  font-size: 70px;
+}
+.hero-text span{
+  color: #FA7436;
+}
+.hero-text p{
+  color: rgb(90, 89, 89);
+  padding: 20px 0 ;
+}
+.hero-text button{
+  width: 125px;
+  height: 40px;
+  border: 1px solid #FA7436;
+  background: fixed;
+  color: #FA7436;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 50px 0;
+}
+
+
+.locations{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 841px;
+  height: 100px;
+  box-shadow: -2px 1px 27px -2px rgba(158, 152, 152, 0.53);
+  margin-left: 500px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.locations-card{
+padding: 50px;
+}
+.locations-card select{
+  border: none;
+  background: fixed;
+}
+.locations-card p{
+  color: rgb(90, 89, 89);
+font-size: 10px;
+}
+.locations button{
+  width: 125px;
+  height: 40px;
+  background: #FA7436;
+  color: #fdfcfb;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+#second{
+  background: #F7F8FC;
+  margin: 70px 0;
+  height: 70vh;
+}
+.second-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px ;
+margin-left: 150px;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
+}
+.todo h1{
+  font-weight: 900;
+  font-size: 35px;
+}
+.todo span{
+  color: #FA7436;
+}
+.todo p{
+  color: rgb(90, 89, 89);
+  font-size: 14px;
+  padding: 20px 0;
+}
+.second-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+.cards{
+  width: 290px;
+  height: 200px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid rgba(190, 179, 179, 0.658);
+  padding: 25px;
+}
+.cards h2{
+  font-size: 20px;
+  margin: 30px 0;
+}
+.cards p{
+  color: rgb(90, 89, 89);
+  font-size: 14px;
+}
+
+
+.deals{
+
+}
+.deals-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+.deals-star{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 5px;
+}
+.star{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px;
+}
+.star span{
+  color: rgb(250, 250, 61);
+  display: flex;
+}
+.star  p{
+  color: rgba(138, 132, 132, 0.747);
+}
+.star button{
+  width: 50px;
+  height: 20px;
+  color: #FA7436;
+  border-radius: 5px;
+  background: #fac19bd7;
+}
+
+
+.best-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+.best-star{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 5px;
+}
+.best-star h1{
+font-size: 20px;
+}
+.best-star p{
+  color: #FA7436;
+  font-weight: 700
+}
+
+
+.offer{
+  background: #FA7436;
+  width: 1170px;
+  height: 416px;
+  border-radius: 15px;
+  margin: 150px 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #F7F8FC;
+  font-size: 30px;
+  gap: 30px;
+}
+.offer input{
+  width: 630px;
+height: 65px;
+border-radius: 10px;
+border: none;
+padding: 0 20px;
+position: relative;
+}
+.offer button{
+  width: 125px;
+  height: 45px;
+  background: #FA7436;
+  color: #fdfcfb;
+  font-weight: 600;
+  border-radius: 5px;
+  position: absolute;
+  right: 630px;
+  bottom: -2400px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer p{
+  padding: 5px 0;
+  color: gray;
+}
+.footer h3{
+  margin-bottom: 10px;
+}
+.icons{
+  margin-top: 20px;
+}
+.footer img{
+margin-bottom: 20px;
+}
+
+.bottom-line{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.548);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
